@@ -49,7 +49,7 @@ void scanFill(){
 void myMouse(int btn,int st,int x,int y){
     if(btn==GLUT_LEFT_BUTTON && st==GLUT_DOWN)
         scanFill();
-    else if(byn==GLUT_RIGHT_BUTTON && st==GLUT_DOWN)
+    else if(btn==GLUT_RIGHT_BUTTON && st==GLUT_DOWN)
         floodFill(121.0,141.0);
 }
 

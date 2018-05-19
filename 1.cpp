@@ -15,7 +15,7 @@ void init(){
 
 void display(){
     int ch;
-    cout<<" 1:Points\n 2:Lines\n 3:Lines_Strip\n 4:Line_Loop\n 5:Triangles\n 6:Triangle_Strip\n 7:Tiangle_Fan\n 8:Quad\n 9:Quad_Strip\n 10:Polygon\n";
+    cout<<" 1:Points\n 2:Lines\n 3:Lines_Strip\n 4:Line_Loop\n 5:Triangles\n 6:Triangle_Strip\n 7:Triangle_Fan\n 8:Quad\n 9:Quad_Strip\n 10:Polygon\n";
     cout<<"Enter your choice :";
     cin>>ch;
     switch(ch){
@@ -152,7 +152,7 @@ void display(){
 int main(int argc,char **argv){
     glutInit(&argc,argv);//Interaction between the system window and openGL
     glutInitDisplayMode(GLUT_SINGLE|GLUT_RGB);//Sets the initial Display Mode
-    glutInitWindowSize(500, 500);//Siez of the window height and width
+    glutInitWindowSize(500, 500);//Size of the window height and width
     glutInitWindowPosition(0.0, 0.0);//Position of the window screen
     glutCreateWindow("Primitives");//Creates a window with th label primitive
     glutDisplayFunc(display);//Call Back function

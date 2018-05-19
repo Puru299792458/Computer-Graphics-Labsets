@@ -58,7 +58,7 @@ void divide_tetra(GLfloat *a, GLfloat* b, GLfloat* c, GLfloat* d, int m){
         divide_tetra(mid[2], mid[4],d, mid[5],m-1);
     }
     else
-        tetra(a,b,c);
+        tetra(a,b,c,d);
 }
 
 void display(){
